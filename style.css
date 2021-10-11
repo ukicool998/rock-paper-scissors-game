@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgreen;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  width: 10%;
+  padding: 4%;
+}
+
+img:hover {
+  color: lightgreen;
+  opacity: 0.3;
+  width: 15%;
+}
+
+h3 {
+  margin: 30px auto;
+}
+
+.computer,
+.player {
+  text-align: center;
+}
+
+.winner-output {
+  text-align: center;
+}
+
+.restart-btn {
+  position: relative;
+  margin: 50px 0 0 150px;
+}
+
+.restart-btn {
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: inherit;
+  color: inherit;
+  background: rgb(153, 202, 156);
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.restart-btn:hover {
+  background: #29a8b9;
+  border-radius: 20%;
+}
